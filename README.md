@@ -17,6 +17,16 @@ The following 3 situations gave me the motivarion for creating this script.
 So I created this.
 
 
+# IMPORTANT
+In my environment, at February 7, 2020, finally, the V8 Runtime has been added to Google Apps Script. By this, the process cost is reduced.
+
+For a tar file including 5 text files that each size is 1 MB, the following reduction can be seen.
+
+| V8 | Process time [s] |
+|:--| --: |
+| With | 8 |
+| Without | 35 |
+
 # Usage
 Please copy and paste the following script to your script editor. And please give a blob of tar data to the function of ``tarUnarchiver(blob)``. By this, the files in the tar file are extracted.
 
